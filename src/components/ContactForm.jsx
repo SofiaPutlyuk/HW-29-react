@@ -13,7 +13,7 @@ const gradientAnimation = keyframes`
 `
 const MainWrapper = styled.div`
     width:1200px;
-    height:1500px;
+    height:auto;
     display:flex;
     background-size: 800% 800%;
     flex-direction:column;
@@ -21,7 +21,7 @@ const MainWrapper = styled.div`
     animation: ${gradientAnimation} 8s ease infinite;
     border-radius: 12px;
     margin:auto;
-
+    padding-bottom:50px;
 `
 const WrapperForm = styled.form`
 display:flex;
